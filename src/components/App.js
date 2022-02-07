@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import ShoppingList from "./ShoppingList";
 import Header from "./Header";
 
+// App - Header
+//     - ShoppingList - ItemForm 
+//                    - Filter -Item
+
+
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
